@@ -1,0 +1,19 @@
+.btn-success
+{
+    font-size: 40px;
+    margin-top: 19px;
+}
+.btn-warning:hover{
+    background-color: darkturquoise;
+}
+Canvas{
+    border: 2px blue solid;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow:10px 10x 38px deeppink;}
+    to{box-shadow:10px 10x 38px yellow;}
+
+}
